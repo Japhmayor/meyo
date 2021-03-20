@@ -71,5 +71,32 @@ const ProjectData = [
     website: "https://meyolanding.netlify.app/",
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
+  {
+    id: 9,
+    title: "Dictionary",
+    category: "Vue",
+    github: "https://github.com/japhmayor/meyo-dictionary",
+    img: "./images/dict.png",
+    website: "https://meyodictionary.netlify.app/",
+    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+  },
+  {
+    id: 10,
+    title: "my Portfolio",
+    category: "React",
+    github: "https://github.com/japhmayor/meyo",
+    img: "./images/mine.png",
+    website: "https://uyo-meyo.netlify.app/",
+    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+  },
+  {
+    id: 10,
+    title: "Note taking app",
+    category: "Vue",
+    github: "https://github.com/japhmayor/note-app",
+    img: "./images/note.png",
+    website: "https://notz.netlify.app/",
+    desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+  },
 ];
 export default ProjectData;
