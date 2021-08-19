@@ -13,9 +13,15 @@ function PageFooter() {
         .
       </p>
       <div className="photos">
-        <img className="fd" src={hng} alt="" />
-        <img className="fd" src={zuri} alt="" />
-        <img className="fd" src={i4g} alt="" />
+        <a href="https://hng.tech">
+          <img className="fd" src={hng} alt="" />
+        </a>
+        <a href="https://zuri.team">
+          <img className="fd" src={zuri} alt="" />
+        </a>
+        <a href="https://ingressive.org">
+          <img className="fd" src={i4g} alt="" />
+        </a>
       </div>
     </footer>
   );
