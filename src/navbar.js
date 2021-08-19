@@ -5,7 +5,7 @@ function Navbar() {
     <div className="section remove-margin">
       <div className="">
         <h2>
-          Meyo<span className="dots">..</span>
+          Bontus<span className="dots">..</span>
         </h2>
       </div>
       <div className="tor">

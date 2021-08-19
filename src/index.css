@@ -232,6 +232,7 @@ body::-webkit-scrollbar-thumb {
 .mail-link {
   color: black;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .vue {
@@ -263,6 +264,16 @@ body::-webkit-scrollbar-thumb {
 
 .tor {
   margin-top: 10px;
+}
+
+.fd {
+  max-width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.photos {
+  float: right;
 }
 
 /*

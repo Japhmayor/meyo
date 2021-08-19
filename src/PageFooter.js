@@ -1,4 +1,7 @@
 import Info from "./Info";
+import hng from "./hng.png";
+import i4g from "./I4G.png";
+import zuri from "./zuri.svg";
 function PageFooter() {
   return (
     <footer>
@@ -9,6 +12,11 @@ function PageFooter() {
         </a>
         .
       </p>
+      <div className="photos">
+        <img className="fd" src={hng} alt="" />
+        <img className="fd" src={zuri} alt="" />
+        <img className="fd" src={i4g} alt="" />
+      </div>
     </footer>
   );
 }

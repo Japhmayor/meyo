@@ -5,7 +5,6 @@ import JobData from "./Data";
 function Jobs() {
   const [jobs] = useState(JobData);
   const [value, setValue] = useState(0);
-  const [text, setText] = useState(false);
 
   const { company, dates, duties, title } = jobs[value];
   return (
@@ -44,10 +43,14 @@ function Jobs() {
           })}
         </article>
       </div>
-      {text ? <p className="title">Amebo, there's no other info.</p> : null}
-      <button onClick={() => setText(!text)} type="button" className="btn">
-        {text ? "Click again Abeg" : "More Info"}
-      </button>
+
+      <a
+        type="button"
+        className="btn"
+        href="https://medium.com/@mrbjm1994/my-resume-4053ade911a0"
+      >
+        Resume
+      </a>
     </section>
   );
 }

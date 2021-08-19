@@ -3,6 +3,7 @@ import Jobs from "./Jobs";
 import PageFooter from "./PageFooter";
 import Projects from "./Projects";
 import { IoMdHand } from "react-icons/io";
+import Info from "./Info";
 
 function MainPage() {
   document.body.style = "background: white";
@@ -31,6 +32,15 @@ function MainPage() {
         <p>
           <a className="mail-link name" href="mailto:mrbjm1994@gmail.com">
             Send an Email
+          </a>
+          <a className="mail-link name" href={Info.facebook}>
+            Facebook
+          </a>
+          <a className="mail-link name" href={Info.twitter}>
+            Twitter
+          </a>
+          <a className="mail-link name" href={Info.linkedIn}>
+            LinkedIn
           </a>
         </p>
       </div>

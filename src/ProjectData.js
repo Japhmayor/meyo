@@ -62,15 +62,7 @@ const ProjectData = [
     website: "https://admiring-pare-144644.netlify.app/",
     desc: ` Details will be in a blog post I will write soon `,
   },
-  {
-    id: 8,
-    title: "Landing page",
-    category: "UI",
-    github: "https://github.com/japhmayor/meyo-landing",
-    img: "./images/landing.png",
-    website: "https://meyolanding.netlify.app/",
-    desc: ` A User Interface Template a built in a boring day `,
-  },
+
   {
     id: 9,
     title: "Dictionary",
