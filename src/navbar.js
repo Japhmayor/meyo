@@ -13,6 +13,12 @@ function Navbar() {
           <a className="github-link name" href={Info.github}>
             Github
           </a>
+          <a
+            className="github-link name vb"
+            href="https://play.golang.org/p/_ycZfqk-3oV"
+          >
+            Print my name
+          </a>
         </p>
       </div>
     </div>
